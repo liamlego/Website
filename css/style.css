@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    /*Box*/
+    
+    background-color: #0e172d;
+    padding-bottom: 25px;
+    
+
+    /*Text*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+nav {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    
+
+}
+
+.navElement {
+    display: inline;
+    padding-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.welcomePart {
+
+        padding-top: 350px;
+        padding-bottom: 350px;
+
+        background-image: url(../resources/eagle.jpg);
+        background-color: #0e172d;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.projects {
+
+    padding-top: 350px;
+    padding-bottom: 350px;
+
+    background-color: blue;
+
+
+}
+
+.about {
+
+    padding-top: 350px;
+    padding-bottom: 350px;
+
+    background-color: green;
+
+
+}
+
+
+
+footer {
+
+    background-color: #42414d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
+body {
+    /*background-image:url(../resources/rubik.gif);*/
+    background-color: #0e172d;
+}
