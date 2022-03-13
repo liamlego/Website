@@ -40,9 +40,9 @@ nav {
 .welcomePart {
 
         padding-top: 350px;
-        padding-bottom: 350px;
+        padding-bottom: 340px;
 
-        background-image: url(../resources/eagle.jpg);
+        background-image: url(../resources/eagle_with_code.jpg);
         background-color: #0e172d;
         background-repeat: no-repeat;
         background-size: cover;
@@ -54,10 +54,23 @@ nav {
     padding-top: 350px;
     padding-bottom: 350px;
 
+    background-image: url("../resources/rubik_example.gif");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
     background-color: blue;
 
 
 }
+
+/* .rubik {
+   display: inline-block; vertical-align: top;
+   margin-left: 75%;
+   width: 50%;
+   height: 10%;
+
+} */
 
 .about {
 
