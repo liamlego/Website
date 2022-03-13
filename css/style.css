@@ -37,6 +37,13 @@ nav {
     
 }
 
+.barrier {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
 .welcomePart {
 
         padding-top: 350px;
@@ -51,26 +58,30 @@ nav {
 
 .projects {
 
-    padding-top: 350px;
-    padding-bottom: 350px;
+    /* padding-top: 350px;
+    padding-bottom: 350px; */
 
-    background-image: url("../resources/rubik_example.gif");
+    background-image: url("../resources/leaves.gif");
 
     background-repeat: no-repeat;
     background-size: cover;
 
-    background-color: blue;
+    background-color: #0e172d;
 
 
 }
 
-/* .rubik {
-   display: inline-block; vertical-align: top;
-   margin-left: 75%;
-   width: 50%;
-   height: 10%;
+#canvas1 {
 
-} */
+    position:relative; 
+    right: 0;
+    left:70%;
+    width: 35%;
+    height: 1000px;
+
+
+}
+
 
 .about {
 
@@ -81,6 +92,8 @@ nav {
 
 
 }
+
+
 
 
 
