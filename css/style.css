@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -12,7 +18,7 @@ header {
     
 
     /*Text*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu';
     font-size: 35px;
     text-align: center;
     color: whitesmoke;
@@ -30,7 +36,7 @@ nav {
 .navElement {
     display: inline;
     padding-left: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Ubuntu';
     font-size: 25px;
     text-decoration: none;
     color: black;
@@ -45,41 +51,150 @@ nav {
 }
 
 .welcomePart {
-
-        padding-top: 350px;
-        padding-bottom: 340px;
-
-        background-image: url(../resources/eagle_with_code.jpg);
+        background-image: url(../resources/hills_and_lake_code.jpg);
         background-color: #0e172d;
         background-repeat: no-repeat;
         background-size: cover;
-
 }
 
 .projects {
 
-    /* padding-top: 350px;
-    padding-bottom: 350px; */
+    /*padding-top: 350px;
+    padding-bottom: 350px;*/
 
-    background-image: url("../resources/leaves.gif");
+    width: 100%;
+    height: 1000px;
+
+    background-image: url("../resources/mountainssunset.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
 
     background-color: #0e172d;
 
+}
+
+#projHead {
+
+    position: absolute;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Ubuntu';
+    color:rgb(255, 175, 1);
+
+    top: 10%;
+    left: 10%;
 
 }
 
+.projWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.welcomeDiv {
+
+    position: relative;
+    width: 100%;
+    height: 900px;
+
+}
+
+#welcomeButtons {
+    position: absolute;
+
+    width: 250px;
+    height: 200px;
+    
+    background-color: chocolate;
+    border: none;
+    border-radius: 10px;
+
+    opacity: 0.9;
+
+    font-size: 25px;
+    font-family: 'Ubuntu';
+}
+
+.projButton {
+
+    left: 20%;
+    top: 35%;
+}
+.aboutButton {
+
+    left: 55%;
+    top: 35%;
+}
+
+
+
+.gameButtons {
+
+    width: 50px;
+    height: 50px;
+    background-image: url("../resources/game/arrowup.png");
+    background-size:contain;
+    background-color: #42414d;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.gamePad {
+
+    position: absolute;
+
+    left: 8%;
+    top: 380px;
+
+    width: 200px;
+    height: 110px;
+
+}
+
+#gameButtonUp {
+
+    background-image: url(../resources/game/arrowup.png);
+    position: relative;
+    left: 27%;
+
+}
+
+#gameButtonDown {
+    background-image: url(../resources/game/arrowdown.png);
+    position: relative;
+    top: 50%;
+    left: 0%;
+}
+
+#gameButtonRight {
+    background-image: url(../resources/game/arrowright.png);
+    position: relative;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+}
+
+#gameButtonLeft {
+    background-image: url(../resources/game/arrowleft.png);
+    position: relative;
+    top: 5%;
+}
+
 #canvas1 {
-
-    position:relative; 
+    position:absolute; 
+    top: 0%;
     right: 0;
-    left:70%;
-    width: 35%;
-    height: 1000px;
+    left:300px;
+    width: 500px;
+    height: 500px;
+}
 
-
+.gameDiv {
+    position:relative;
+    left: 47.5%;
 }
 
 
@@ -88,8 +203,9 @@ nav {
     padding-top: 350px;
     padding-bottom: 350px;
 
+        background-image: url('../resources/hills.jpg');
     background-color: green;
-
+    background-size: cover;
 
 }
 

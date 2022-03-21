@@ -8,12 +8,12 @@
 
 <link rel="stylesheet" href="./css/style.css">
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"> 
 
 <body>
 
-
 <header>
-    <h1>Welcome</h1>
+    <h1>Liam</h1>
 </header>
 
 <nav>
@@ -28,7 +28,12 @@
 
 <section class="welcomePart">
 
-
+    <div class="welcomeDiv">
+        <div class='welcomeButtons'>
+            <button type="button" id="welcomeButtons" class="projButton">Projects</button>
+            <button type="button" id="welcomeButtons" class="aboutButton">About</button>
+        </div>
+    </div>
 
 </section>
 
@@ -36,10 +41,25 @@
 
 <section class="projects">
 
-    <!-- <img class="rubik" src="./resources/rubik_example.gif"> -->
-    <canvas id="canvas1"></canvas>
 
-    <script src="./scripts/home.js">
+    <div class="projWrapper">
+        <h1 id="projHead"><a id="projHead" href="/html/projects.html">Projects</a></h1>
+
+        <p id="projDescription"></p>
+
+
+        <div class="gameDiv">
+            <div class="gamePad">
+                <button type="button" class="gameButtons" id="gameButtonUp"></button>
+                <button type="button" class="gameButtons" id="gameButtonDown"></button>
+                <button type="button" class="gameButtons" id="gameButtonRight"></button>
+                <button type="button" class="gameButtons" id="gameButtonLeft"></button>
+            </div>
+        <canvas id="canvas1"></canvas>
+        </div>
+    </div>
+
+    <script src="./scripts/game.js">
         
     </script>
 
@@ -57,7 +77,7 @@
 <p>hi</p>
 </footer>
 
-
+<script src="/scripts/home.js"></script>
 
 </body>
 

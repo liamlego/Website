@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ header {
     
 
     /*Text*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu';
     font-size: 35px;
     text-align: center;
     color: whitesmoke;
@@ -30,7 +31,7 @@ nav {
 .navElement {
     display: inline;
     padding-left: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Ubuntu';
     font-size: 25px;
     text-decoration: none;
     color: black;
