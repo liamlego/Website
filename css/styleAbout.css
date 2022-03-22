@@ -49,3 +49,13 @@ nav {
         background-size: cover;
 
 }
+
+footer {
+
+    background-color:#12141b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: whitesmoke;
+    font-family: 'Ubuntu';
+
+}
