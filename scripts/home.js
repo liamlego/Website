@@ -3,7 +3,6 @@ let aboutButton = document.querySelector(".aboutButton");
 
 
 projButton.addEventListener("click", function() {
-    alert("You are being sent to projects!");
     window.location.href = "../html/projects.html";
 
 });

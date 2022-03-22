@@ -39,7 +39,7 @@ nav {
     font-family: 'Ubuntu';
     font-size: 25px;
     text-decoration: none;
-    color: black;
+    color: #0e172d;
     
 }
 
@@ -51,7 +51,7 @@ nav {
 }
 
 .welcomePart {
-        background-image: url(../resources/hills_and_lake_code.jpg);
+        background-image: url(../resources/hills_dark.jpg);
         background-color: #0e172d;
         background-repeat: no-repeat;
         background-size: cover;
@@ -65,7 +65,7 @@ nav {
     width: 100%;
     height: 1000px;
 
-    background-image: url("../resources/mountainssunset.jpg");
+    background-image: url("../resources/mountainssunset_dark.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,6 +84,29 @@ nav {
 
     top: 10%;
     left: 10%;
+
+}
+
+#projDescription {
+
+    position: absolute;
+    color:rgb(255, 175, 1);
+    width: 300px;
+    height: 100px;
+
+    top: 20%;
+    left: 10%;
+
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    
+}
+
+.pIMAGE {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 
 }
 
@@ -115,6 +138,7 @@ nav {
 
     font-size: 25px;
     font-family: 'Ubuntu';
+    color:#0e172d;
 }
 
 .projButton {
@@ -200,13 +224,30 @@ nav {
 
 .about {
 
-    padding-top: 350px;
-    padding-bottom: 350px;
-
-        background-image: url('../resources/hills.jpg');
+    background-image: url('../resources/snow_mountain_dark.jpg');
     background-color: green;
     background-size: cover;
 
+}
+
+.aboutDiv {
+
+    position: relative;
+    width:100%;
+    height: 900px;
+
+}
+
+#aboutHead {
+
+    position: absolute;
+
+    top: 15%;
+    left: 10%;
+
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    color:rgb(255, 175, 1);
 }
 
 
@@ -215,9 +256,11 @@ nav {
 
 footer {
 
-    background-color: #42414d;
+    background-color:#12141b;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: whitesmoke;
+    font-family: 'Ubuntu';
 
 }
 
