@@ -1,5 +1,3 @@
-
-
 var c = document.getElementById("canvas1");
 var ctx = c.getContext("2d");
 
@@ -22,6 +20,7 @@ let right = false;
 let up = false;
 let down = false;
 
+
 // Animation loop
 function animate() {
     requestAnimationFrame(animate);
@@ -29,6 +28,7 @@ function animate() {
     if (up) {
         y--;
     }
+    
 
     if (down) {
         y++;
@@ -67,7 +67,7 @@ function animate() {
     
     ctx.beginPath();
     ctx.fillStyle = ctx.fillStyle = "#00FF00";
-    ctx.fillRect(x, y, 10, 5);
+    ctx.fillRect(x, y, 20, 5);
     
 
 }

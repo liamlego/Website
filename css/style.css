@@ -14,7 +14,7 @@ header {
     /*Box*/
     
     background-color: #0e172d;
-    padding-bottom: 25px;
+    padding: 15px;
     
 
     /*Text*/
@@ -26,11 +26,15 @@ header {
 
 nav {
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     background-color: whitesmoke;
-    
+    z-index: 9999;
+}
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navElement {
@@ -80,7 +84,7 @@ nav {
     text-decoration: none;
     font-size: 50px;
     font-family: 'Ubuntu';
-    color:rgb(255, 175, 1);
+    color:chocolate;
 
     top: 10%;
     left: 10%;
@@ -90,7 +94,7 @@ nav {
 #projDescription {
 
     position: absolute;
-    color:rgb(255, 175, 1);
+    color:rgb(175, 153, 108);
     width: 300px;
     height: 100px;
 
@@ -207,23 +211,18 @@ nav {
 
 #canvas1 {
     position:absolute; 
-    top: 0%;
-    right: 0;
-    left:300px;
-    width: 500px;
-    height: 500px;
 }
 
 .gameDiv {
     position:absolute;
-    left: 47.5%;
+    left: 30%;
 
     height: 50%;
-    width: 10%;
+    width: 35%;
 }
 
 
-.about {
+#about {
 
     background-image: url('../resources/snow_mountain_dark.jpg');
     background-color: green;
@@ -235,7 +234,7 @@ nav {
 
     position: relative;
     width:100%;
-    height: 900px;
+    height: 760px;
 
 }
 
@@ -248,10 +247,84 @@ nav {
 
     font-family: 'Ubuntu';
     font-size: 50px;
-    color:rgb(255, 175, 1);
+    color:chocolate;
+    
 }
 
+#uwbLink {
 
+    text-decoration: none;
+    color: rgb(112, 14, 187);
+
+}
+
+#aboutStatement1 {
+
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+    width: 25%;
+    height: 5%;
+    border-radius: 5%;
+    font-family: 'Ubuntu';
+}
+
+#aboutStatement2 {
+
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+    width: 25%;
+    height: 5%;
+    border-radius: 5%;
+    font-family: 'Ubuntu';
+}
+
+#aboutStatement3 {
+
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+    width: 25%;
+    height: 5%;
+    border-radius: 5%;
+    font-family: 'Ubuntu';
+}
+
+#aboutStatement4 {
+
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+    width: 25%;
+    height: 5%;
+    border-radius: 5%;
+    font-family: 'Ubuntu';
+}
+
+#myPic {
+
+    position: absolute;
+    left: 50%;
+    border-radius: 7%;
+    opacity: 50%;
+    width: 50%;
+    height: auto;
+
+
+}
 
 
 
